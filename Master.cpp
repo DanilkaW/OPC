@@ -150,26 +150,3 @@ void __fastcall Master::CheckProject(void)      //Автоматическое �
         }
         ServerForm->StateProject = 1;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
