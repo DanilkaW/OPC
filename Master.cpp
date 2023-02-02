@@ -95,6 +95,7 @@ void __fastcall Master::OpenProj(void)  //Открытие проекта
         FileWrite(hFileConf, &Stmp, sizeof(char)*lenAn);
         //---
         ReadStruct();
+}
 //----------------------------------------------------------------------------
 bool __fastcall Master::GetCommPort(int i)      //Проверка доступности COM-порта
 {
